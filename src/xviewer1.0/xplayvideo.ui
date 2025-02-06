@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XPlayVideo</class>
+ <widget class="QWidget" name="XPlayVideo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>754</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>XPlayVideo</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#close
+{
+	background-image: url(:/XViewer/img/close.png);
+}
+#min
+{
+	background-image: url(:/XViewer/img/min.png);
+}
+#max
+{
+	background-image: url(:/XViewer/img/max.png);
+}
+
+#normal
+{
+	background-image: url(:/XViewer/img/normal.png);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="video" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>721</width>
+     <height>511</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="set" native="true">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>20</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="close">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="max">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="min">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="normal">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="rate_2">
+      <property name="styleSheet">
+       <string notr="true">alternate-background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>音量</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="volum">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>128</number>
+      </property>
+      <property name="singleStep">
+       <number>1</number>
+      </property>
+      <property name="pageStep">
+       <number>2</number>
+      </property>
+      <property name="value">
+       <number>64</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="volum_txt">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Times New Roman&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>当前音量:50%</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="speedtxt">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Times New Roman&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>当前速度:1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="speed">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>20</number>
+      </property>
+      <property name="singleStep">
+       <number>1</number>
+      </property>
+      <property name="pageStep">
+       <number>2</number>
+      </property>
+      <property name="value">
+       <number>10</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="rate">
+      <property name="styleSheet">
+       <string notr="true">alternate-background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>播放速度:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="time">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>600</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>-/-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="play">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>580</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/XViewer/img/play.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSlider" name="pos">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>600</y>
+     <width>521</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../../../夏曹俊_总/夏曹俊全套/【夏曹俊24960】FFmpeg 4.3 音视频基础到工程应用-多路H265监控录放C++开发/资料/125完成音视频的暂停和播放/125完成音视频的暂停和播放/125完成音视频的暂停和播放源码/xviewer/xviewer.qrc"/>
+  <include location="xviewer.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>speed</sender>
+   <signal>sliderReleased()</signal>
+   <receiver>XPlayVideo</receiver>
+   <slot>SetSpeed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>127</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>118</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pos</sender>
+   <signal>sliderReleased()</signal>
+   <receiver>XPlayVideo</receiver>
+   <slot>PlayPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>306</x>
+     <y>613</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>273</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>play</sender>
+   <signal>clicked()</signal>
+   <receiver>XPlayVideo</receiver>
+   <slot>Pause()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>41</x>
+     <y>604</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pos</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>XPlayVideo</receiver>
+   <slot>Move()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>353</x>
+     <y>609</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>346</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>volum</sender>
+   <signal>sliderReleased()</signal>
+   <receiver>XPlayVideo</receiver>
+   <slot>SetVolum()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>320</x>
+     <y>37</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>min</sender>
+   <signal>clicked()</signal>
+   <receiver>XPlayVideo</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>563</x>
+     <y>38</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>close</sender>
+   <signal>clicked()</signal>
+   <receiver>XPlayVideo</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>678</x>
+     <y>43</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>684</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>max</sender>
+   <signal>clicked()</signal>
+   <receiver>XPlayVideo</receiver>
+   <slot>ShowMax()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>610</x>
+     <y>36</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>597</x>
+     <y>-86</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>normal</sender>
+   <signal>clicked()</signal>
+   <receiver>XPlayVideo</receiver>
+   <slot>ShowNormal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>637</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>637</x>
+     <y>-39</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>SetSpeed()</slot>
+  <slot>PlayPos()</slot>
+  <slot>Pause()</slot>
+  <slot>Move()</slot>
+  <slot>SetVolum()</slot>
+  <slot>ShowNormal()</slot>
+  <slot>ShowMax()</slot>
+ </slots>
+</ui>

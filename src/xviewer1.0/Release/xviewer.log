@@ -1,0 +1,28 @@
+﻿D:\visual studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+D:\visual studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  uic xviewer.ui
+  moc xviewer.h
+  moc xpush_stream_widget.h
+  moc xplayvideo.h
+  moc xcamera_widget.h
+  acamera_task.cpp
+  xcalendar.cpp
+  xcamera_config.cpp
+  xcamera_record.cpp
+  xcamera_widget.cpp
+  xplayvideo.cpp
+  xpush_stream_widget.cpp
+  xsyn_push.cpp
+  xsyn_record.cpp
+  xviewer.cpp
+  main.cpp
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 xsyn_push.cpp)
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 xsyn_record.cpp)
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 acamera_task.cpp)
+F:\work\avideo_project_h265\code\src\xviewer1.0\acamera_task.cpp(90): warning C4715: “ACameraTask::Open”: 不是所有的控件路径都返回值
+  qrc_xviewer.cpp
+  moc_xviewer.cpp
+  moc_xpush_stream_widget.cpp
+  moc_xplayvideo.cpp
+  moc_xcamera_widget.cpp
+  xviewer.vcxproj -> F:\work\avideo_project_h265\code\bin\x86\xviewer.exe

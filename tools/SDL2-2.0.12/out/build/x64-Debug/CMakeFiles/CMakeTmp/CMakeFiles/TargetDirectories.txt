@@ -1,0 +1,3 @@
+F:/work/avideo_project_h265/code/tools/SDL2-2.0.12/out/build/x64-Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b15a8.dir
+F:/work/avideo_project_h265/code/tools/SDL2-2.0.12/out/build/x64-Debug/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
+F:/work/avideo_project_h265/code/tools/SDL2-2.0.12/out/build/x64-Debug/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir

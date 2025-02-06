@@ -1,0 +1,1 @@
+config:x86:x86_32:generic:win32:用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29924 版:--prefix=./install --toolchain=msvc --enable-shared --disable-programs --disable-ffplay --disable-ffmpeg --disable-ffprobe --enable-libx264 --enable-gpl --enable-libfdk-aac --enable-nonfree --enable-libx265

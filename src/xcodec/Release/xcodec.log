@@ -1,0 +1,369 @@
+﻿D:\visual studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  xaudio_play.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.h(127,31): warning C4251: “XAudioPlay::audio_datas_”: class“std::list<XDate,std::allocator<XDate>>”需要有 dll 接口由 class“XAudioPlay”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.h(127): message : 参见“std::list<XDate,std::allocator<XDate>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.h(128,17): warning C4251: “XAudioPlay::mux_”: class“std::mutex”需要有 dll 接口由 class“XAudioPlay”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.cpp(94,19): warning C4018: “>=”: 有符号/无符号不匹配
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.cpp(107,1): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.cpp(120,17): warning C4244: “=”: 从“__int64”转换到“double”，可能丢失数据
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.cpp(125,19): warning C4244: “return”: 从“double”转换到“__int64”，可能丢失数据
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.cpp(140,16): warning C4091: “”: 没有声明变量时忽略“AVSampleFormat”的左侧
+  xcamera.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcamera.h(41,17): warning C4251: “XCamera::mux_”: class“std::mutex”需要有 dll 接口由 class“XCamera”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(88,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(95,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\iosfwd(224): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\work\avideo_project_h265\code\src\xcodec\xcamera.cpp(74,20): warning C4018: “<”: 有符号/无符号不匹配
+  xcamera_task.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcamera.h(41,17): warning C4251: “XCamera::mux_”: class“std::mutex”需要有 dll 接口由 class“XCamera”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcamera_task.h(33,20): warning C4251: “XCameraTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XCameraTask”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(88,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(95,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\iosfwd(224): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xcodec.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcodec.h(49,17): warning C4251: “XCodec::mtx_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xdecode.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcodec.h(49,17): warning C4251: “XCodec::mtx_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\work\avideo_project_h265\code\src\xcodec\xdecode.cpp(89,16): warning C4091: “”: 没有声明变量时忽略“AVHWDeviceType”的左侧
+  xdecode_task.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcodec.h(49,17): warning C4251: “XCodec::mtx_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xdecode_task.h(69,20): warning C4251: “XDecodeTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xdecode_task.h(71,28): warning C4251: “XDecodeTask::pkt_list_”: class“XAVPacketList”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(192): message : 参见“XAVPacketList”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xdecode_task.h(74,32): warning C4251: “XDecodeTask::frames_”: class“std::list<AVFrame *,std::allocator<AVFrame *>>”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(217): message : 参见“std::list<AVFrame *,std::allocator<AVFrame *>>”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xdemux.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xformat.h(82,17): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xdemux_task.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xformat.h(82,17): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xdemux_task.h(43,18): warning C4251: “XDemuxTask::url_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“XDemuxTask”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\work\avideo_project_h265\code\src\xcodec\xdemux_task.cpp(52,11): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  xbilateral_filter.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xedge.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xencode.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcodec.h(49,17): warning C4251: “XCodec::mtx_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xencode_task.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcodec.h(49,17): warning C4251: “XCodec::mtx_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xencode_task.h(6,17): warning C4099: “SwsContext”: 类型名称以前使用“struct”现在使用的是“class”
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(17): message : 参见“SwsContext”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xencode_task.h(41,20): warning C4251: “XEncodeTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XEncodeTask”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xencode_task.h(46,25): warning C4251: “XEncodeTask::frames_”: class“XAVFrameList”需要有 dll 接口由 class“XEncodeTask”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(209): message : 参见“XAVFrameList”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xfilter.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xfilter_task.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xformat.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xformat.h(82,17): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\work\avideo_project_h265\code\src\xcodec\xformat.cpp(57,20): warning C4018: “<”: 有符号/无符号不匹配
+F:\work\avideo_project_h265\code\src\xcodec\xformat.cpp(83,36): warning C4018: “>”: 有符号/无符号不匹配
+F:\work\avideo_project_h265\code\src\xcodec\xformat.cpp(109,36): warning C4018: “>”: 有符号/无符号不匹配
+F:\work\avideo_project_h265\code\src\xcodec\xformat.cpp(158,28): warning C4018: “>”: 有符号/无符号不匹配
+  xmux.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xformat.h(82,17): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xmux_task.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xformat.h(82,17): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xmux_task.h(32,24): warning C4251: “XMuxTask::pkts_”: class“XAVPacketList”需要有 dll 接口由 class“XMuxTask”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(192): message : 参见“XAVPacketList”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xmux_task.h(33,20): warning C4251: “XMuxTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XMuxTask”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xplayer.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xformat.h(82,17): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xdemux_task.h(43,18): warning C4251: “XDemuxTask::url_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“XDemuxTask”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcodec.h(49,17): warning C4251: “XCodec::mtx_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xdecode_task.h(69,20): warning C4251: “XDecodeTask::mux_”: class“std::mutex”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xdecode_task.h(71,28): warning C4251: “XDecodeTask::pkt_list_”: class“XAVPacketList”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(192): message : 参见“XAVPacketList”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xdecode_task.h(74,32): warning C4251: “XDecodeTask::frames_”: class“std::list<AVFrame *,std::allocator<AVFrame *>>”需要有 dll 接口由 class“XDecodeTask”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(217): message : 参见“std::list<AVFrame *,std::allocator<AVFrame *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(88,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(95,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\iosfwd(224): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.h(127,31): warning C4251: “XAudioPlay::audio_datas_”: class“std::list<XDate,std::allocator<XDate>>”需要有 dll 接口由 class“XAudioPlay”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.h(127): message : 参见“std::list<XDate,std::allocator<XDate>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xaudio_play.h(128,17): warning C4251: “XAudioPlay::mux_”: class“std::mutex”需要有 dll 接口由 class“XAudioPlay”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+  xpush_rtmp_task.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xformat.h(82,17): warning C4251: “XFormat::mux_”: class“std::mutex”需要有 dll 接口由 class“XFormat”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xcodec.h(49,17): warning C4251: “XCodec::mtx_”: class“std::mutex”需要有 dll 接口由 class“XCodec”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xpush_rtmp_task.h(32,22): warning C4251: “XPushRtmpTask::out_url_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“XPushRtmpTask”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xpush_rtmp_task.h(34,17): warning C4251: “XPushRtmpTask::mtx_”: class“std::mutex”需要有 dll 接口由 class“XPushRtmpTask”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xpush_rtmp_task.h(47,21): warning C4251: “XPushRtmpTask::pkts_”: class“XAVPacketList”需要有 dll 接口由 class“XPushRtmpTask”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(192): message : 参见“XAVPacketList”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(88,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(95,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\iosfwd(224): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xscreen.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(88,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(95,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\iosfwd(224): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+  正在编译...
+  xscreen_get_task.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xscreen_get_task.h(19,20): warning C4251: “XScreen_get_task::mux_”: class“std::mutex”需要有 dll 接口由 class“XScreen_get_task”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  xsdl.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(88,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(95,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\iosfwd(224): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+  xtools.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\work\avideo_project_h265\code\src\xcodec\xtools.cpp(55,20): warning C4018: “<”: 有符号/无符号不匹配
+F:\work\avideo_project_h265\code\src\xcodec\xtools.cpp(58,49): warning C4018: “>=”: 有符号/无符号不匹配
+F:\work\avideo_project_h265\code\src\xcodec\xtools.cpp(132,19): warning C4018: “>”: 有符号/无符号不匹配
+F:\work\avideo_project_h265\code\src\xcodec\xtools.cpp(182,21): warning C4018: “>”: 有符号/无符号不匹配
+F:\work\avideo_project_h265\code\src\xcodec\xtools.cpp(235,12): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+F:\work\avideo_project_h265\code\src\xcodec\xtools.cpp(275,20): warning C4018: “>”: 有符号/无符号不匹配
+  xvideo_view.cpp
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(147,18): warning C4251: “XThread::th_”: class“std::thread”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\thread(36): message : 参见“std::thread”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(150,17): warning C4251: “XThread::mux_”: class“std::mutex”需要有 dll 接口由 class“XThread”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234,26): warning C4251: “PDataList::datas_”: class“std::list<PData *,std::allocator<PData *>>”需要有 dll 接口由 class“PDataList”的客户端使用
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(234): message : 参见“std::list<PData *,std::allocator<PData *>>”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xtools.h(236,17): warning C4251: “PDataList::mux_”: class“std::mutex”需要有 dll 接口由 class“PDataList”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(88,20): warning C4251: “XVideoView::mtx_”: class“std::mutex”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\mutex(87): message : 参见“std::mutex”的声明
+F:\work\avideo_project_h265\code\src\xcodec\xvideo_view.h(95,23): warning C4251: “XVideoView::ifs_”: class“std::basic_ifstream<char,std::char_traits<char>>”需要有 dll 接口由 class“XVideoView”的客户端使用
+D:\visual studio\VC\Tools\MSVC\14.28.29910\include\iosfwd(224): message : 参见“std::basic_ifstream<char,std::char_traits<char>>”的声明
+F:\work\avideo_project_h265\code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+    正在创建库 ..\..\lib\x86\xcodec.lib 和对象 ..\..\lib\x86\xcodec.exp
+xbilateral_filter.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::bilateralFilter(class cv::_InputArray const &,class cv::_OutputArray const &,int,double,double,int)" (?bilateralFilter@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@HNNH@Z)
+xedge.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::blur(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::Size_<int>,class cv::Point_<int>,int)" (?blur@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@V?$Size_@H@1@V?$Point_@H@1@H@Z)
+xedge.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QBEXABV_OutputArray@2@@Z)
+xedge.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::copyTo(class cv::_OutputArray const &,class cv::_InputArray const &)const " (?copyTo@Mat@cv@@QBEXABV_OutputArray@2@ABV_InputArray@2@@Z)
+xedge.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@HH@Z)
+xedge.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::Canny(class cv::_InputArray const &,class cv::_OutputArray const &,double,double,int,bool)" (?Canny@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@NNH_N@Z)
+..\..\bin\x86\xcodec.dll : fatal error LNK1120: 6 个无法解析的外部命令

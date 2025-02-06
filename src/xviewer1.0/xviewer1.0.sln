@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xviewer", "xviewer.vcxproj", "{38828B9F-E182-413C-BE2B-D686C9680C54}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11D45672-3BA5-4B54-8688-226C0D8CEB7B} = {11D45672-3BA5-4B54-8688-226C0D8CEB7B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xcodec", "..\xcodec\xcodec.vcxproj", "{11D45672-3BA5-4B54-8688-226C0D8CEB7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38828B9F-E182-413C-BE2B-D686C9680C54}.Debug|x64.ActiveCfg = Debug|Win32
+		{38828B9F-E182-413C-BE2B-D686C9680C54}.Debug|x86.ActiveCfg = Debug|Win32
+		{38828B9F-E182-413C-BE2B-D686C9680C54}.Debug|x86.Build.0 = Debug|Win32
+		{38828B9F-E182-413C-BE2B-D686C9680C54}.Release|x64.ActiveCfg = Release|Win32
+		{38828B9F-E182-413C-BE2B-D686C9680C54}.Release|x86.ActiveCfg = Release|Win32
+		{38828B9F-E182-413C-BE2B-D686C9680C54}.Release|x86.Build.0 = Release|Win32
+		{11D45672-3BA5-4B54-8688-226C0D8CEB7B}.Debug|x64.ActiveCfg = Debug|x64
+		{11D45672-3BA5-4B54-8688-226C0D8CEB7B}.Debug|x64.Build.0 = Debug|x64
+		{11D45672-3BA5-4B54-8688-226C0D8CEB7B}.Debug|x86.ActiveCfg = Debug|Win32
+		{11D45672-3BA5-4B54-8688-226C0D8CEB7B}.Debug|x86.Build.0 = Debug|Win32
+		{11D45672-3BA5-4B54-8688-226C0D8CEB7B}.Release|x64.ActiveCfg = Release|x64
+		{11D45672-3BA5-4B54-8688-226C0D8CEB7B}.Release|x64.Build.0 = Release|x64
+		{11D45672-3BA5-4B54-8688-226C0D8CEB7B}.Release|x86.ActiveCfg = Release|Win32
+		{11D45672-3BA5-4B54-8688-226C0D8CEB7B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017
+		SolutionGuid = {8872D2EC-BC03-4452-9B42-092C0861FBB0}
+	EndGlobalSection
+EndGlobal
